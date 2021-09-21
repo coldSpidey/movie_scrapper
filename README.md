@@ -120,7 +120,7 @@ This part is for those who want to pull the application image from Docker Hub an
 
 ## Run the image  
 - Run the image in a container, this will map internal port 5050 of the container to your localhost port 5050, **-d** is to tell Docker to run application in the background  
-`docker run -d -p 5050:5050 movie_scrapper`  
+`docker run -d -p 5050:5050 coldspidey/movie_scrapper`  
 
 ![docker_run](https://user-images.githubusercontent.com/91014925/134175761-3f625a7e-a5c3-4ea9-9606-3f7a0930f4c8.jpg)  
 
