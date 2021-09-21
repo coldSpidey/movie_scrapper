@@ -1,5 +1,5 @@
 # movie_scrapper
-This Python-Flask based small program will get movie plot information from IMDB, I use BeautifulSoup to parse IMDB website and get the info I want
+This Python-Flask based small program will get movie plot information from IMDB, I use BeautifulSoup to parse IMDB website and get the info I want, I'm not a Python developer and this is my first try
 
 # **PART 1: How to Build From Scratch**
 You can follow this instruction to setup your development environment from scratch then run the program and build it as Docker image and run it in a container. You can skip this section and proceed to PART 2 if you only interested in running the image in Docker container and test it.
