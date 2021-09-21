@@ -28,7 +28,7 @@ You can follow this instruction to setup your development environment from scrat
 ![docker_wsl](https://user-images.githubusercontent.com/91014925/134161226-508fc2d7-5cb6-4732-95ec-3f9bee2bdc40.jpg)
 
 ## Install Visual Studio Code
-- You can use any IDE of your choice but I've been digging Visual Studio Code recently, get it [here](https://code.visualstudio.com/), install it and also dont forget to install Python plugins and Visual Studio IntelliCode to use IntelliSense (syntax highlighting, autocomplete, etc)  
+- You can use any IDE of your choice but I've been digging Visual Studio Code recently, get it [here](https://code.visualstudio.com/), install it and also dont forget to install Python plugins and Visual Studio IntelliCode to use IntelliSense (syntax highlighting, autocomplete, etc). This is optional and only required if you want to check the source code  
 ![vs_code](https://user-images.githubusercontent.com/91014925/134157594-34c2b1d7-0742-4591-9bd5-29592549088b.jpg)  
 
 ## Install Python  
@@ -37,13 +37,14 @@ You can follow this instruction to setup your development environment from scrat
 `sudo apt-get install python3.9` this is to install Python 3.9  
 - Run `python3 --version` to verify your Python installation  
 
-## Install the required libraries and components to develop and run the program  
+## Create The Project Structure    
 You can download **movie_scrapper_html.zip** and unzip it, alternatively you can do manually using below steps  
 - Go to **movie_scrapper_html** folder and create **app** folder  
 - Place **run.py** file to **movie_scrapper_html** folder  
 - Go to **app** folder and create **templates** folder
 - Place __init__.py and views.py into **app** folder  
 - Go to **templates** folder and place all the **.html** files there 
+## Install the required libraries and components to develop and run the program  
 - Open Windows Terminal and switch to Ubuntu Terminal  
 - Install PIP using this command `sudo apt install python3-pip`
 - Navigate to **movie_scrapper_html** folder and run `pip3 install -r requirements.txt` to install all the components at one go  
