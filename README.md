@@ -38,7 +38,7 @@ You can follow this instruction to setup your development environment from scrat
 - Run `python3 --version` to verify your Python installation  
 
 ## Install the required libraries and components to develop and run the program  
-- Create your project folder, mine is **movie_scrapper_html**, go inside and place the requirements.txt there  
+- Create your project folder, mine is **movie_scrapper_html**, go inside and place the **requirements.txt** there  
 - Open Windows Terminal and switch to Ubuntu Terminal and then navigate to **movie_scrapper_html** folder  
 - Run `pip3 install -r requirements.txt` to install all the components at one go
 - Run `flask --version` to verify Flask installation  
@@ -54,6 +54,7 @@ You can follow this instruction to setup your development environment from scrat
 ![docker_version](https://user-images.githubusercontent.com/91014925/134160303-fd51c2d9-0a1c-41b6-95a6-0206a58eda58.jpg)
 
 ## Setup your project structure  
+You can download **movie_scrapper_html.zip** and unzip it, alternatively you can do manually using below steps
 - Go to **movie_scrapper_html** folder and create **app** folder  
 - Place **run.py** file to **movie_scrapper_html** folder  
 - Go to **app** folder and create **templates** folder
