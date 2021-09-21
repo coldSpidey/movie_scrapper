@@ -38,9 +38,16 @@ You can follow this instruction to setup your development environment from scrat
 - Run `python3 --version` to verify your Python installation  
 
 ## Install the required libraries and components to develop and run the program  
-- Create your project folder, mine is **movie_scrapper_html**, go inside and place the **requirements.txt** there  
-- Open Windows Terminal and switch to Ubuntu Terminal and then navigate to **movie_scrapper_html** folder  
-- Run `pip3 install -r requirements.txt` to install all the components at one go
+You can download **movie_scrapper_html.zip** and unzip it, alternatively you can do manually using below steps  
+- Go to **movie_scrapper_html** folder and create **app** folder  
+- Place **run.py** file to **movie_scrapper_html** folder  
+- Go to **app** folder and create **templates** folder
+- Place __init__.py and views.py into **app** folder  
+- Go to **templates** folder and place all the **.html** files there 
+- Open Windows Terminal and switch to Ubuntu Terminal  
+- Install PIP using this command `sudo apt install python3-pip`
+- Navigate to **movie_scrapper_html** folder and run `pip3 install -r requirements.txt` to install all the components at one go  
+- Close and open the terminal again  
 - Run `flask --version` to verify Flask installation  
 
 ## Test Your Development Environment  
@@ -52,14 +59,6 @@ You can follow this instruction to setup your development environment from scrat
 
 - Type `docker --version` in your terminal to verify if Docker configured properly  
 ![docker_version](https://user-images.githubusercontent.com/91014925/134160303-fd51c2d9-0a1c-41b6-95a6-0206a58eda58.jpg)
-
-## Setup your project structure  
-You can download **movie_scrapper_html.zip** and unzip it, alternatively you can do manually using below steps
-- Go to **movie_scrapper_html** folder and create **app** folder  
-- Place **run.py** file to **movie_scrapper_html** folder  
-- Go to **app** folder and create **templates** folder
-- Place __init__.py and views.py into **app** folder  
-- Go to **templates** folder and place all the **.html** files there  
 
 ## Enable Python Virtual Environment  
 This steo is to create a virtual environment for your development so if anything bad happen it won't affect your main Python installation  
@@ -99,11 +98,11 @@ Enter any movie title and the application will give you the plot, this is a dumb
 - Login to Docker Hub using below command, replace **userID** with your Docker Hub ID  
 `docker login --username userID`  
 
-- Tag your Docker image using this format docker_user_ID/repo_name, example below  
-`docker tag movie_scrapper coldspidey/movie_scrapper`  
+- Tag your Docker image using this format docker_user_ID/repo_name, replace **userID** with your Docker Hub ID  
+`docker tag movie_scrapper userID/movie_scrapper`  
 
-- Push your image to Docker Hub  
-`docker push coldspidey/movie_scrapper`  
+- Push your image to Docker Hub, replace **userID** with your Docker Hub ID  
+`docker push userID/movie_scrapper`  
 ![docker_push](https://user-images.githubusercontent.com/91014925/134188952-fc43fa1c-b6bf-4594-a0d5-dd0d270c4b10.jpg)
 
 
